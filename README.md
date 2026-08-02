@@ -73,8 +73,8 @@ class Elisante:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=elisantenkini&show_icons=true&theme=transparent&hide_border=true" alt="Elisante's GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&theme=transparent&hide_border=true" alt="Most-used languages" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=elisantenkini&theme=transparent&hide_border=true" alt="Elisante's GitHub statistics" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&theme=transparent&hide_border=true" alt="Most-used languages" />
 
 </div>
 
