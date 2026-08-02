@@ -52,7 +52,7 @@ class Elisante:
 | **GIS & mapping** | QGIS · ArcGIS · GRASS GIS · Google Earth Engine · Leaflet · OpenLayers |
 | **Spatial data** | PostgreSQL · PostGIS · GeoServer · MapServer · SAGA GIS |
 | **Data collection** | ODK · GPS field mapping · data cleaning · data visualization |
-| **Tools & platforms** | Git · GitHub · Linux · Google Cloud · cPanel |
+| **Tools & platforms** | Git · GitHub · Linux · Google Cloud Engine · Amazon Web Services (AWS) · cPanel |
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,r,java,html,css,bash,postgres,git,github,linux,gcp,wordpress&perline=6" alt="Technology icons" />
