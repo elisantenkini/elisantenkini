@@ -22,7 +22,17 @@ class Elisante:
     focus = ["web development", "geospatial data", "data management", "automation"]
     location = "Arusha, Tanzania 🇹🇿"
     languages = ["Swahili", "English"]
-    currently_learning = ["Python", "Git", "Bash"]
+    currently_learning = [
+        "Python",
+        "Git",
+        "Bash",
+        # 🤖 AI & Automation Integration
+        "AI-Powered CLI Navigation",         # Rapid Bash execution via AI
+        "LLM API Integration",               # Automating content pipelines via Python
+        "AI Agent Orchestration",            # Connecting models to real-world tasks
+        "Automated Spatial Analysis",        # AI-assisted GIS data processing
+        "Smart Version Control",             # AI-generated Git commits & CI/CD hooks
+    ]
 ```
 
 - 🌍 I use technology and data to solve practical community and organizational challenges.
