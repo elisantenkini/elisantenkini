@@ -47,15 +47,15 @@ class Elisante:
 
 | Area | Technologies |
 |---|---|
-| **Languages** | Python · R · Java · HTML · CSS · SQL · Bash |
-| **Web** | WordPress · Elementor · responsive design · website performance · SEO |
+| **Languages** | Python · PHP · JavaScript · HTML · CSS · SQL · R · Java · Bash |
+| **Web** | WordPress · Elementor Pro · Pods Framework · Fluent Forms · responsive design · website performance · SEO |
 | **GIS & mapping** | QGIS · ArcGIS · GRASS GIS · Google Earth Engine · Leaflet · OpenLayers |
 | **Spatial data** | PostgreSQL · PostGIS · GeoServer · MapServer · SAGA GIS |
 | **Data collection** | ODK · GPS field mapping · data cleaning · data visualization |
-| **Tools & platforms** | Git · GitHub · Linux · Google Cloud Engine · Amazon Web Services (AWS) · cPanel · DirectAdmin |
+| **Tools & platforms** | Git · GitHub · VS Code · Linux · Google Cloud Engine · Amazon Web Services (AWS) · cPanel · DirectAdmin |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,java,html,css,bash,postgres,git,github,linux,gcp,wordpress&perline=6" alt="Technology icons" />
+  <img src="https://skillicons.dev/icons?i=python,php,js,html,css,r,java,bash,postgres,git,github,linux,gcp,wordpress&perline=7" alt="Technology icons" />
 </p>
 
 ---
@@ -73,12 +73,13 @@ class Elisante:
 
 <div align="center">
 
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=elisantenkini&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" alt="Elisante's GitHub activity" />
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=elisantenkini&theme=transparent&hide_border=true" alt="Elisante's GitHub statistics" />
-<img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&theme=transparent&hide_border=true" alt="Most-used languages" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&langs_count=10&count_private=true&theme=transparent&hide_border=true" alt="Most-used languages" />
 
 </div>
 
-> GitHub language statistics reflect public repository contents, not my complete professional experience.
+> GitHub language statistics reflect repositories accessible to the statistics service and may not include every private repository. My current WordPress work uses PHP, JavaScript, HTML, CSS, Python, and structured JSON assets.
 
 ---
 
