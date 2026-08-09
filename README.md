@@ -72,13 +72,16 @@ class Elisante:
 ## 📊 GitHub activity
 
 <div align="center">
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=elisantenkini&theme=transparent&hide_border=true" alt="Elisante's GitHub statistics" />
-<img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&theme=transparent&hide_border=true" alt="Most-used languages" />
-
+  <img src="https://ghchart.rshah.org/elisantenkini" alt="GitHub contribution chart" />
 </div>
 
-> GitHub language statistics reflect public repository contents, not my complete professional experience.
+<div align="center">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/elisantenkini?style=social" />
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/elisantenkini?style=social" />
+  <a href="https://github.com/africanrealnature"><img alt="African Real Nature on GitHub" src="https://img.shields.io/badge/GitHub-africanrealnature-181717?style=flat&logo=github" /></a>
+</div>
+
+> GitHub contribution activity reflects public work across [my profile](https://github.com/elisantenkini) and [African Real Nature](https://github.com/africanrealnature), and may not represent my full professional work.
 
 ---
 
