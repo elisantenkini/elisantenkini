@@ -78,10 +78,29 @@ class Elisante:
 <div align="center">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/elisantenkini?style=social" />
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/elisantenkini?style=social" />
-  <a href="https://github.com/africanrealnature"><img alt="African Real Nature on GitHub" src="https://img.shields.io/badge/GitHub-africanrealnature-181717?style=flat&logo=github" /></a>
 </div>
 
-> GitHub contribution activity reflects public work across [my profile](https://github.com/elisantenkini) and [African Real Nature](https://github.com/africanrealnature), and may not represent my full professional work.
+> Contribution activity reflects work on [my GitHub profile](https://github.com/elisantenkini) and may not represent my full professional work.
+
+### Recently used languages
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
+</p>
+
+My recent work includes **Python** for data and image import automation, **PHP** for WordPress development, and **JavaScript, HTML, and CSS** for web interfaces.
+
+### Public repository languages
+
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&langs_count=10&theme=transparent&hide_border=true" alt="Most-used languages in public repositories" />
+</p>
+
+> This card summarizes public repository code, not recent activity or all of my work. The recently used languages above also include my private project work and were reviewed in September 2026.
 
 ---
 
