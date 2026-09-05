@@ -6,9 +6,9 @@
 
 I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://elisante.net)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elisantenkini/)
-[![Codecademy — My learning ground](https://img.shields.io/badge/Codecademy-My_learning_ground-1F4056?style=for-the-badge&logo=codecademy&logoColor=white)](https://www.codecademy.com/profiles/elisantenkini)
+<a href="https://elisante.net" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/elisantenkini/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.codecademy.com/profiles/elisantenkini" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Codecademy-My_learning_ground-1F4056?style=for-the-badge&amp;logo=codecademy&amp;logoColor=white" alt="Codecademy — My learning ground" /></a>
 
 </div>
 
@@ -92,7 +92,7 @@ class Elisante:
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/elisantenkini?style=social" />
 </div>
 
-> Contribution activity reflects work on [my GitHub profile](https://github.com/elisantenkini) and may not represent my full professional work.
+> Contribution activity reflects work on <a href="https://github.com/elisantenkini" target="_blank" rel="noopener noreferrer">my GitHub profile</a> and may not represent my full professional work.
 
 ### Recently used languages
 
@@ -120,10 +120,10 @@ My recent work includes **Python** for data and image import automation, **PHP**
 
 I'm interested in practical projects involving **web development, GIS, data, automation, and IT support**.
 
-- 🌐 [Portfolio](https://elisante.net)
-- 💼 [LinkedIn](https://www.linkedin.com/in/elisantenkini/)
-- 📚 [Codecademy — my learning ground](https://www.codecademy.com/profiles/elisantenkini)
-- 💻 [GitHub](https://github.com/elisantenkini)
+- 🌐 <a href="https://elisante.net" target="_blank" rel="noopener noreferrer">Portfolio</a>
+- 💼 <a href="https://www.linkedin.com/in/elisantenkini/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+- 📚 <a href="https://www.codecademy.com/profiles/elisantenkini" target="_blank" rel="noopener noreferrer">Codecademy — my learning ground</a>
+- 💻 <a href="https://github.com/elisantenkini" target="_blank" rel="noopener noreferrer">GitHub</a>
 
 <div align="center">
 
