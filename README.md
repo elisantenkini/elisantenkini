@@ -4,7 +4,7 @@
 
 ### IT Technician · GIS Specialist · Web Developer
 
-I build practical web, data, and geospatial solutions for organizations and communities.
+I help NGOs, companies, and communities manage IT infrastructure, build websites, and turn geospatial data into useful insights.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://elisante.net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elisantenkini/)
@@ -39,7 +39,18 @@ class Elisante:
 - 🗺️ My background includes GIS, cartography, spatial analysis, field-data collection, and geodatabases.
 - 🌐 I design, maintain, secure, and optimize WordPress websites.
 - 🧰 I provide IT infrastructure management, troubleshooting, and remote technical support.
-- 🐍 I am developing Python skills for automation, data work, and geospatial applications.
+- 🐍 I use Python for data and image import automation while expanding my skills in data work and geospatial applications.
+
+## 💼 Professional skills
+
+| Area | What I do |
+|---|---|
+| **GIS & remote sensing** | Cartography, spatial analysis, remote sensing, field mapping, and map production |
+| **Data & databases** | Data management and analysis, PostgreSQL/PostGIS geodatabase deployment, and data sharing |
+| **IT support & infrastructure** | Computer troubleshooting and maintenance, server and network support, IT asset tracking, and annotation-server administration |
+| **Web development & automation** | Website design and development, WordPress content management, and Python import workflows |
+| **Design & digital communications** | Logo, brochure, flyer, and social media graphics; SEO and social media consultation |
+| **Technical documentation** | Technical reports, platform documentation, and project progress reporting |
 
 ---
 
@@ -49,10 +60,11 @@ class Elisante:
 |---|---|
 | **Languages** | Python · PHP · JavaScript · HTML · CSS · SQL · R · Java · Bash |
 | **Web** | WordPress · Elementor Pro · Pods Framework · Fluent Forms · responsive design · website performance · SEO |
-| **GIS & mapping** | QGIS · ArcGIS · GRASS GIS · Google Earth Engine · Leaflet · OpenLayers |
+| **GIS & mapping** | QGIS · ArcGIS · GRASS GIS · Google Earth Engine · Leaflet · OpenLayers · Mapbox Studio · DroneDeploy |
 | **Spatial data** | PostgreSQL · PostGIS · GeoServer · MapServer · SAGA GIS |
-| **Data collection** | ODK · GPS field mapping · data cleaning · data visualization |
-| **Tools & platforms** | Git · GitHub · VS Code · Linux · Google Cloud Engine · Amazon Web Services (AWS) · cPanel · DirectAdmin |
+| **Data collection & analysis** | ODK · GPS field mapping · Garmin BaseCamp · GPSBabel · RStudio · data cleaning · data visualization |
+| **Tools & platforms** | Windows · Windows Server · Linux · Ubuntu Server · Git · GitHub · VS Code · Docker · virtual machines · Google Cloud Engine · Amazon Web Services (AWS) · cPanel · DirectAdmin |
+| **Design & annotation** | Adobe Photoshop · Adobe Illustrator · CVAT |
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,php,js,html,css,r,java,bash,postgres,git,github,linux,gcp,wordpress&perline=7" alt="Technology icons" />
