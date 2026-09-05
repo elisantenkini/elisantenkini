@@ -1,0 +1,21 @@
+# Personal resume drafts and Office temporary files stay local.
+*.docx
+~$*
+*Resume*.pdf
+*resume*.pdf
+
+# Local credentials and configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
