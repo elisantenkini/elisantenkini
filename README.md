@@ -2,9 +2,9 @@
 
 # Hi, I'm Elisante Nkini 👋
 
-### IT Technician · GIS Specialist · Web Developer
+### IT Technician · Web Developer · GIS Specialist
 
-I help NGOs, companies, and communities manage IT infrastructure, build websites, and turn geospatial data into useful insights.
+I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. I use Python automation and smarter workflows to deliver quality work efficiently.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://elisante.net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elisantenkini/)
