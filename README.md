@@ -2,13 +2,13 @@
 
 # Hi, I'm Elisante Nkini 👋
 
-### IT Technician · Web Developer · GIS Specialist
+### IT Technician · Web Developer · GIS Specialist · AI Enthusiast
 
-I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. I use Python automation and smarter workflows to deliver quality work efficiently.
+I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://elisante.net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elisantenkini/)
-[![Codecademy](https://img.shields.io/badge/Codecademy-Profile-1F4056?style=for-the-badge&logo=codecademy&logoColor=white)](https://www.codecademy.com/profiles/elisantenkini)
+[![Codecademy — My learning ground](https://img.shields.io/badge/Codecademy-My_learning_ground-1F4056?style=for-the-badge&logo=codecademy&logoColor=white)](https://www.codecademy.com/profiles/elisantenkini)
 
 </div>
 
@@ -122,7 +122,7 @@ I'm interested in practical projects involving **web development, GIS, data, aut
 
 - 🌐 [Portfolio](https://elisante.net)
 - 💼 [LinkedIn](https://www.linkedin.com/in/elisantenkini/)
-- 📚 [Codecademy](https://www.codecademy.com/profiles/elisantenkini)
+- 📚 [Codecademy — my learning ground](https://www.codecademy.com/profiles/elisantenkini)
 - 💻 [GitHub](https://github.com/elisantenkini)
 
 <div align="center">
