@@ -108,11 +108,19 @@ My recent work includes **Python** for data and image import automation, **PHP**
 
 ### Public repository languages
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&langs_count=10&theme=transparent&hide_border=true" alt="Most-used languages in public repositories" />
-</p>
+<!-- public-languages:start -->
+Updated **2026-09-28 (UTC)** from GitHub's language data across **5 original public repositories**.
 
-> This card summarizes public repository code, not recent activity or all of my work. The recently used languages above also include my private project work and were reviewed in September 2026.
+| Language | Share of code bytes |
+|---|---:|
+| JavaScript | 55.0% |
+| HTML | 38.9% |
+| PowerShell | 6.1% |
+
+The **12 public forks** are listed in the [repository inventory](docs/public-repositories.md) and excluded from these percentages because they include upstream code. Repositories without detected code contribute no bytes.
+
+> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories are excluded; the recent-work summary above also covers private projects.
+<!-- public-languages:end -->
 
 ---
 

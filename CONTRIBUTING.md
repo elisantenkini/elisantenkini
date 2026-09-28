@@ -42,7 +42,16 @@ should not be committed. Resume files are ignored by default. Publishing a
 resume is a separate decision: prepare a reviewed public copy before changing
 the ignore rules or repository checks.
 
-## Checks
+## Refreshing public repository languages
+
+Run `pwsh -NoProfile -File scripts/update-profile-languages.ps1` with network
+access to GitHub. An optional `GH_TOKEN` environment variable increases the API
+rate limit. The script refreshes the marked README table and
+`docs/public-repositories.md` from all pages of public repositories. Percentages
+use language bytes from original repositories; forks are inventoried separately.
+Private repository data is never included. Review both outputs before committing.
+
+## Repository validation
 
 The Repository checks workflow runs on pushes, pull requests, and manual runs.
 It validates tracked text formatting, unresolved merge markers, and tracked
