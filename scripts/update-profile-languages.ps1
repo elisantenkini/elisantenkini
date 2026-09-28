@@ -32,11 +32,11 @@ $rows = foreach ($repo in ($repos | Sort-Object name)) {
     $kind = if ($repo.fork) { 'Fork' } else { 'Original' }
     "| [$($repo.name)]($($repo.html_url)) | $kind | $names |"
 }
-$originalCount = @($repos | Where-Object { -not $_.fork }).Count
 $publicRepos = @($repos | Where-Object { -not $_.private })
 $publicOriginalCount = @($publicRepos | Where-Object { -not $_.fork }).Count
 $forkCount = @($publicRepos | Where-Object { $_.fork }).Count
 $date = [DateTime]::UtcNow.ToString('yyyy-MM-dd')
+$year = [DateTime]::UtcNow.ToString('yyyy')
 $totalBytes = ($totals.Values | Measure-Object -Sum).Sum
 $table = @('| Language | Share of code bytes |', '|---|---:|')
 if ($totalBytes -gt 0) {
@@ -49,7 +49,7 @@ if ($totalBytes -gt 0) {
 }
 $block = @(
     '<!-- repository-languages:start -->'
-    "Updated **$date (UTC)** from GitHub's language data across **$originalCount accessible original public and private repositories**."
+    "**$year**"
     ''
     $table
     ''
