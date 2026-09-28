@@ -4,7 +4,7 @@
 
 ### IT Technician · Web Developer · GIS Specialist · AI Enthusiast
 
-I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
+I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn Geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
 
 <a href="https://elisante.net" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/elisantenkini/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
