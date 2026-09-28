@@ -42,7 +42,24 @@ should not be committed. Resume files are ignored by default. Publishing a
 resume is a separate decision: prepare a reviewed public copy before changing
 the ignore rules or repository checks.
 
-## Checks
+## Refreshing public and private repository languages
+
+Run `pwsh -NoProfile -File scripts/update-profile-languages.ps1` with network
+access to GitHub. Set `GH_TOKEN` in the process environment to a token with read
+access to the owner's public and private repositories. Never put the token in a
+file or commit it. The script checks the authenticated account and reads all pages
+of owned repositories visible to that token. Missing authentication fails before
+any output is changed; restricted tokens may still give incomplete coverage.
+
+The marked README table combines language bytes from original public and private
+repositories. Forks are excluded. `docs/public-repositories.md` contains only
+public repositories, including forks. Only aggregate language statistics from
+private repositories may be published, as authorized by the profile owner;
+private repository names, links, file contents, and per-project breakdowns must
+remain private. Review both outputs before committing. The script filename is
+retained for compatibility with existing refresh commands.
+
+## Repository validation
 
 The Repository checks workflow runs on pushes, pull requests, and manual runs.
 It validates tracked text formatting, unresolved merge markers, and tracked

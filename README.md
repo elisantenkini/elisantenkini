@@ -4,7 +4,7 @@
 
 ### IT Technician · Web Developer · GIS Specialist · AI Enthusiast
 
-I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
+I build fast, polished WordPress sites with Elementor Pro, support IT infrastructure, and turn Geospatial data into practical insights. As an AI enthusiast, I explore AI tools and use Python automation to make workflows smarter and deliver quality work efficiently.
 
 <a href="https://elisante.net" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-elisante.net-0A66C2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/elisantenkini/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-Elisante_Nkini-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
@@ -84,7 +84,7 @@ class Elisante:
 ## 📊 GitHub activity
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/elisantenkini" alt="GitHub contribution chart" />
+  <a href="https://github.com/elisantenkini?tab=overview"><img src="https://ghchart.rshah.org/elisantenkini" alt="GitHub contributions over the past year" /></a>
 </div>
 
 <div align="center">
@@ -93,6 +93,8 @@ class Elisante:
 </div>
 
 > Contribution activity reflects work on <a href="https://github.com/elisantenkini" target="_blank" rel="noopener noreferrer">my GitHub profile</a> and may not represent my full professional work.
+
+The chart shows the past year, through the present date. [View activity by year on GitHub](https://github.com/elisantenkini?tab=overview), including monthly contribution details. Private contribution counts depend on my GitHub profile visibility settings.
 
 ### Recently used languages
 
@@ -106,13 +108,24 @@ class Elisante:
 
 My recent work includes **Python** for data and image import automation, **PHP** for WordPress development, and **JavaScript, HTML, and CSS** for web interfaces.
 
-### Public repository languages
+### Public & Private repository languages
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=elisantenkini&layout=compact&langs_count=10&theme=transparent&hide_border=true" alt="Most-used languages in public repositories" />
-</p>
+<!-- repository-languages:start -->
+Updated **2026-09-28 (UTC)** from GitHub's language data across **7 accessible original public and private repositories**.
 
-> This card summarizes public repository code, not recent activity or all of my work. The recently used languages above also include my private project work and were reviewed in September 2026.
+| Language | Share of code bytes |
+|---|---:|
+| HTML | 29.5% |
+| Python | 24.2% |
+| CSS | 22.0% |
+| PHP | 13.5% |
+| JavaScript | 9.8% |
+| PowerShell | 1.1% |
+
+Forks are excluded because they include upstream code. The [public repository inventory](docs/public-repositories.md) lists public projects separately. Repositories without detected code contribute no bytes.
+
+> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories contribute only to combined language totals; their names and files are not published. Coverage is limited to repositories accessible to the account used for the refresh.
+<!-- repository-languages:end -->
 
 ---
 
