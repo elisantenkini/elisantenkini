@@ -84,7 +84,7 @@ class Elisante:
 ## 📊 GitHub activity
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/elisantenkini" alt="GitHub contribution chart" />
+  <a href="https://github.com/elisantenkini?tab=overview"><img src="https://ghchart.rshah.org/elisantenkini" alt="GitHub contributions over the past year" /></a>
 </div>
 
 <div align="center">
@@ -93,6 +93,8 @@ class Elisante:
 </div>
 
 > Contribution activity reflects work on <a href="https://github.com/elisantenkini" target="_blank" rel="noopener noreferrer">my GitHub profile</a> and may not represent my full professional work.
+
+The chart shows the past year, through the present date. [View activity by year on GitHub](https://github.com/elisantenkini?tab=overview), including monthly contribution details. Private contribution counts depend on my GitHub profile visibility settings.
 
 ### Recently used languages
 
@@ -106,21 +108,24 @@ class Elisante:
 
 My recent work includes **Python** for data and image import automation, **PHP** for WordPress development, and **JavaScript, HTML, and CSS** for web interfaces.
 
-### Public repository languages
+### Public & Private repository languages
 
-<!-- public-languages:start -->
-Updated **2026-09-28 (UTC)** from GitHub's language data across **5 original public repositories**.
+<!-- repository-languages:start -->
+Updated **2026-09-28 (UTC)** from GitHub's language data across **7 accessible original public and private repositories**.
 
 | Language | Share of code bytes |
 |---|---:|
-| JavaScript | 55.0% |
-| HTML | 38.9% |
-| PowerShell | 6.1% |
+| HTML | 29.5% |
+| Python | 24.2% |
+| CSS | 22.0% |
+| PHP | 13.5% |
+| JavaScript | 9.8% |
+| PowerShell | 1.1% |
 
-The **12 public forks** are listed in the [repository inventory](docs/public-repositories.md) and excluded from these percentages because they include upstream code. Repositories without detected code contribute no bytes.
+Forks are excluded because they include upstream code. The [public repository inventory](docs/public-repositories.md) lists public projects separately. Repositories without detected code contribute no bytes.
 
-> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories are excluded; the recent-work summary above also covers private projects.
-<!-- public-languages:end -->
+> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories contribute only to combined language totals; their names and files are not published. Coverage is limited to repositories accessible to the account used for the refresh.
+<!-- repository-languages:end -->
 
 ---
 

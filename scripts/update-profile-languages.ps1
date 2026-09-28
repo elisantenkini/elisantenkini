@@ -4,14 +4,17 @@ $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $headers = @{ Accept = 'application/vnd.github+json'; 'User-Agent' = 'profile-language-refresh' }
-if ($env:GH_TOKEN) { $headers.Authorization = "Bearer $env:GH_TOKEN" }
+if (-not $env:GH_TOKEN) { throw 'Set GH_TOKEN with read access to your public and private repositories before refreshing combined totals.' }
+$headers.Authorization = "Bearer $env:GH_TOKEN"
+$viewer = Invoke-RestMethod 'https://api.github.com/user' -Headers $headers
+if ($viewer.login -ne $Username) { throw 'The authenticated account must match Username.' }
 
-# Use the public user endpoint even when authenticated; never publish private data.
+# Read owned repositories; publish private languages only in combined totals.
 $repos = @()
 for ($page = 1; ; $page++) {
-    $response = Invoke-RestMethod "https://api.github.com/users/$Username/repos?type=owner&per_page=100&page=$page" -Headers $headers
+    $response = Invoke-RestMethod "https://api.github.com/user/repos?affiliation=owner&per_page=100&page=$page" -Headers $headers
     $batch = @($response)
-    $repos += @($batch | Where-Object { -not $_.private })
+    $repos += @($batch | Where-Object { $_.owner.login -eq $Username })
     if ($batch.Count -lt 100) { break }
 }
 $totals = @{}
@@ -23,13 +26,16 @@ $rows = foreach ($repo in ($repos | Sort-Object name)) {
             $totals[$language.Name] += [long]$language.Value
         }
     }
+    if ($repo.private) { continue }
     $names = ($properties | Sort-Object { [long]$_.Value } -Descending | ForEach-Object { $_.Name }) -join ', '
     if (-not $names) { $names = 'No language detected' }
     $kind = if ($repo.fork) { 'Fork' } else { 'Original' }
     "| [$($repo.name)]($($repo.html_url)) | $kind | $names |"
 }
 $originalCount = @($repos | Where-Object { -not $_.fork }).Count
-$forkCount = $repos.Count - $originalCount
+$publicRepos = @($repos | Where-Object { -not $_.private })
+$publicOriginalCount = @($publicRepos | Where-Object { -not $_.fork }).Count
+$forkCount = @($publicRepos | Where-Object { $_.fork }).Count
 $date = [DateTime]::UtcNow.ToString('yyyy-MM-dd')
 $totalBytes = ($totals.Values | Measure-Object -Sum).Sum
 $table = @('| Language | Share of code bytes |', '|---|---:|')
@@ -39,28 +45,28 @@ if ($totalBytes -gt 0) {
         $table += "| $($entry.Key) | $percentage% |"
     }
 } else {
-    $table = @('GitHub currently reports no language data for original public repositories.')
+    $table = @('GitHub currently reports no language data for the accessible original repositories.')
 }
 $block = @(
-    '<!-- public-languages:start -->'
-    "Updated **$date (UTC)** from GitHub's language data across **$originalCount original public repositories**."
+    '<!-- repository-languages:start -->'
+    "Updated **$date (UTC)** from GitHub's language data across **$originalCount accessible original public and private repositories**."
     ''
     $table
     ''
-    "The **$forkCount public forks** are listed in the [repository inventory](docs/public-repositories.md) and excluded from these percentages because they include upstream code. Repositories without detected code contribute no bytes."
+    "Forks are excluded because they include upstream code. The [public repository inventory](docs/public-repositories.md) lists public projects separately. Repositories without detected code contribute no bytes."
     ''
-    '> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories are excluded; the recent-work summary above also covers private projects.'
-    '<!-- public-languages:end -->'
+    '> These figures measure code bytes on default branches, not proficiency or recent activity. Private repositories contribute only to combined language totals; their names and files are not published. Coverage is limited to repositories accessible to the account used for the refresh.'
+    '<!-- repository-languages:end -->'
 ) -join "`n"
 $readmePath = Join-Path $repoRoot 'README.md'
 $readme = [IO.File]::ReadAllText($readmePath)
-$pattern = '(?s)<!-- public-languages:start -->.*?<!-- public-languages:end -->'
-if ([regex]::Matches($readme, $pattern).Count -ne 1) { throw 'Expected exactly one public language block.' }
+$pattern = '(?s)<!-- repository-languages:start -->.*?<!-- repository-languages:end -->'
+if ([regex]::Matches($readme, $pattern).Count -ne 1) { throw 'Expected exactly one repository language block.' }
 $updated = [regex]::Replace($readme, $pattern, [Text.RegularExpressions.MatchEvaluator]{ param($match) $block })
 $inventory = @(
     '# Public repository inventory'
     ''
-    "Reviewed $date (UTC): $($repos.Count) public repositories, including $originalCount originals and $forkCount forks."
+    "Reviewed $date (UTC): $($publicRepos.Count) public repositories, including $publicOriginalCount originals and $forkCount forks."
     ''
     'Source: GitHub REST public repository listings and each repository''s languages endpoint. Languages are ordered by detected code bytes. A fork listing does not imply authorship of its upstream code.'
     ''
@@ -74,4 +80,4 @@ $inventory = @(
 [IO.Directory]::CreateDirectory((Join-Path $repoRoot 'docs')) | Out-Null
 [IO.File]::WriteAllText((Join-Path $repoRoot 'docs/public-repositories.md'), "$inventory`n")
 [IO.File]::WriteAllText($readmePath, $updated.Replace("`r`n", "`n"))
-Write-Output "Updated profile and inventory from $($repos.Count) public repositories."
+Write-Output "Updated combined language totals and inventory of $($publicRepos.Count) public repositories."
