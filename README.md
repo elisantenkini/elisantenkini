@@ -58,16 +58,16 @@ class Elisante:
 
 | Area | Technologies |
 |---|---|
-| **Languages** | Python · PHP · JavaScript · HTML · CSS · SQL · R · Java · Bash |
+| **Languages** | Python · PHP · JavaScript · HTML · CSS · SQL · Java · Bash |
 | **Web** | WordPress · Elementor Pro · Pods Framework · Fluent Forms · responsive design · website performance · SEO |
 | **GIS & mapping** | QGIS · ArcGIS · GRASS GIS · Google Earth Engine · Leaflet · OpenLayers · Mapbox Studio · DroneDeploy |
 | **Spatial data** | PostgreSQL · PostGIS · GeoServer · MapServer · SAGA GIS |
-| **Data collection & analysis** | ODK · GPS field mapping · Garmin BaseCamp · GPSBabel · RStudio · data cleaning · data visualization |
+| **Data collection & analysis** | ODK · GPS field mapping · Garmin BaseCamp · GPSBabel · data cleaning · data visualization |
 | **Tools & platforms** | Windows · Windows Server · Linux · Ubuntu Server · Git · GitHub · VS Code · Docker · virtual machines · Google Cloud Engine · Amazon Web Services (AWS) · cPanel · DirectAdmin |
 | **Design & annotation** | Adobe Photoshop · Adobe Illustrator · CVAT |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,php,js,html,css,r,java,bash,postgres,git,github,linux,gcp,wordpress&perline=7" alt="Technology icons" />
+  <img src="https://skillicons.dev/icons?i=python,php,js,html,css,java,bash,postgres,git,github,linux,gcp,wordpress&perline=7" alt="Technology icons" />
 </p>
 
 ---
@@ -111,7 +111,7 @@ My recent work includes **Python** for data and image import automation, **PHP**
 ### Public & Private repository languages
 
 <!-- repository-languages:start -->
-Updated **2026-09-28 (UTC)** from GitHub's language data across **7 accessible original public and private repositories**.
+**2026**
 
 | Language | Share of code bytes |
 |---|---:|
